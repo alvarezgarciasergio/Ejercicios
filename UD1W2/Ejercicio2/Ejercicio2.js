@@ -25,7 +25,7 @@ function diamante (letra){
     for (let fila of cuerpo) {
         console.log(fila);
     }
-     // Mostrar la parte inferior de la pirámide, omitiendo la última fila (por eso el -2)
+     // Mostrar la parte inferior del diamante, omitiendo la última fila (por eso el -2)
      for (let i = cuerpo.length -2; i >= 0; i--) {
         console.log(cuerpo[i]);
     }
